@@ -1,0 +1,150 @@
+body {
+  margin: 0;
+  color: #343a40;
+    font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+nav {
+  display:flex;
+  position: absolute;
+  justify-content: space-between;
+  background-color: rgb(241, 243, 245, 0.5);
+  border-radius: 10px;
+  margin: 25px;
+  padding: 10px 0;
+  width: calc(100% - 50px);
+  
+}
+
+h1{
+  font-weight: 700;
+  font-size: 100px;
+  box-sizing:border-box;
+}
+
+.left-buttons button,
+.right-button button {
+  border: none;
+  cursor: pointer;
+  background-color: transparent;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 20px;
+  padding: 0 40px;
+}
+
+
+
+.book-now-button {
+  border: none;
+  border-radius: 20px;
+  width: 150px;
+  height: 50px;
+  color: #fff;
+  cursor: pointer;
+  background-color: #66d9e8;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 20px;
+  margin-bottom: 200px;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-image: url(https://images.unsplash.com/photo-1484176257074-895a78e1917e?q=80&w=1986&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+  height: 100vh;
+  background-size:cover;
+  font-family: "Poppins", sans-serif;
+  font-size: 30px;
+  font-weight: 600;
+  font-style: normal;
+  box-sizing:border-box;
+  
+}
+
+.calendar, .calendar-color-1, .calendar-color-2, .calendar-button {
+  display: flex;
+  flex-flow: row wrap;
+  flex-direction: row;
+  justify-items: center;
+  align-items: center;
+  justify-content: center;
+  border-radius: 25px;
+  padding: 15px;
+  gap: 25px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 20px;
+  box-sizing:border-box;
+}
+
+.calendar {
+  margin-top: 50px;
+  background-color:rgb(241, 243, 245, 0.5);
+  width: 70%;
+  box-sizing:border-box;
+  
+}
+
+
+
+.calendar-color-1{
+  background-color: #B2EBF2;
+}
+
+.calendar-color-2 {
+  background-color: #66d9e8;
+}
+
+.calendar-button{
+  border: none;
+  border-radius: 20px;
+  color: #fff;
+  cursor: pointer;
+  background-color: #66d9e8;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 20px;
+  box-sizing:border-box;
+}
+
+h2 {
+  margin-top: 50px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 70px;
+}
+
+.small-image {
+  width: auto;
+  height: 400px;
+  border-radius: 10%;
+}
+
+.card-2 {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: 1fr;
+  gap: 10px;
+
+}
+
+.no-delays {
+
+}
+
+.premium-support {
+
+}
+
+
